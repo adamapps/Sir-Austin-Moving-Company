@@ -1,0 +1,11 @@
+{
+  "name": "Block Party | Desktop",
+  "main": "runtime.html",
+  "window": {
+    "icon": "icon.png",
+	"width": 700,
+	"height": 440,
+	"toolbar": true,
+	"always-on-top": true
+  }
+}
