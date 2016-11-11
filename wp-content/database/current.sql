@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Nov 11, 2016 at 12:57 AM
+-- Generation Time: Nov 11, 2016 at 01:14 AM
 -- Server version: 5.7.13-0ubuntu0.16.04.2
 -- PHP Version: 7.0.8-0ubuntu0.16.04.3
 
@@ -328,7 +328,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (17, 7, '_wpb_vc_js_status', 'false'),
 (18, 7, 'qode_animate-page-title', 'no'),
 (19, 7, 'qode_show-sidebar', 'default'),
-(20, 7, '_edit_lock', '1478846873:1'),
+(20, 7, '_edit_lock', '1478847746:1'),
 (21, 5, 'qode_show-page-title', 'yes'),
 (22, 14, '_vc_post_settings', 'a:1:{s:10:"vc_grid_id";a:0:{}}'),
 (23, 14, '_edit_last', '1'),
