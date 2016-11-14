@@ -1,0 +1,88 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content class="post-size-14px">
+    <ion-nav-bar class="bar app-top-bar">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+      <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear ion-search" menu-toggle="right">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu class="main-menu" side="left" width="230">
+    <ion-content>
+        
+        <div id="useravatar">
+            <img src="http://127.0.0.1/cdn/images/user.png">
+        </div>
+      <ion-list>
+
+          
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.schedule-list">
+          <i class="icon ion-calendar"></i>
+          <h2 class="menu-text">Schedule</h2>
+        </ion-item>   
+        
+        <ion-item class="item item-icon-left" nav-clear menu-close href="#/app/category/Work%20Orders/19">
+          <i class="icon ion-clipboard"></i>
+          <h2 class="menu-text">Cattle Calls</h2>
+        </ion-item>   
+          
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.cattle-call">
+          <i class="icon ion-qr-scanner"></i>
+          <h2 class="menu-text">Scan Item</h2>
+        </ion-item>  
+          
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.checklists">
+          <i class="icon ion-checkmark-round"></i>
+          <h2 class="menu-text">Checklists</h2>
+        </ion-item>   
+          
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.bookmarks">
+          <i class="icon ion-map"></i>
+          <h2 class="menu-text">Cattle Drives</h2>
+        </ion-item>      
+                
+        <ion-item class="item item-icon-left" nav-clear menu-close href="#/app/moovingu">
+          <i class="icon ion-university"></i>
+          <h2 class="menu-text">Mooving U</h2>
+        </ion-item>    
+          
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.bookmarks">
+          <i class="icon ion-person-stalker"></i>
+          <h2 class="menu-text">Cow Pen</h2>
+        </ion-item>              
+          
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.cattle-call">
+          <i class="icon ion-chatboxes"></i>
+          <h2 class="menu-text">Barnyard</h2>
+        </ion-item>           
+          
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.bookmarks">
+          <i class="icon ion-bookmark"></i>
+          <h2 class="menu-text">Bookmarks</h2>
+        </ion-item>             
+                   
+        <ion-item class="item item-icon-left" nav-clear menu-close ui-sref="app.settings">
+          <i class="icon ion-gear-a"></i>
+          <h2 class="menu-text">Settings</h2>
+        </ion-item>                       
+  
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+
+  <ion-side-menu class="multi-level-push-menu" side="right" ng-controller="PushMenuCtrl">
+    <ion-content has-bouncing="false" scroll="false">
+      <wp-search>
+      </wp-search>
+      <push-menu menu="menu"></push-menu>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

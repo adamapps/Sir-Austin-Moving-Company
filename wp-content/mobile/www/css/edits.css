@@ -1,0 +1,112 @@
+.walkthrough-view {
+    background-color: #2f2f2f;
+    background: #45484d;
+    background: -moz-radial-gradient(center, ellipse cover, #45484d 0%, #000000 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #45484d 0%,#000000 100%);
+    background: radial-gradient(ellipse at center, #45484d 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+}
+
+.walkthrough-view .bottom-content .login {
+    color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(129, 156, 83);
+    border-color: rgba(46, 88, 117, 0.9);
+}
+
+.walkthrough-view .bottom-content .sign-up {
+    color: rgba(10, 10, 10, 0.9);
+    background-color: rgba(255, 255, 255, 0.85);
+    border-color: rgba(252, 252, 252, 0.9);
+}
+
+.walkthrough-view .top-content .slider-pager {
+    bottom: 2px;
+    display: none;
+}
+
+.register-view, .login-view, .forgot-password-view {
+    background-color: #2f2f2f;
+    background: #45484d;
+    background: -moz-radial-gradient(center, ellipse cover, #45484d 0%, #000000 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #45484d 0%,#000000 100%);
+    background: radial-gradient(ellipse at center, #45484d 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 );
+}
+
+.home-view h1, .category-view h1 {
+    font-size: 22px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+#useravatar img{
+    width: 100%;
+    padding: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.bookmarks-view .row{padding: 0;}
+
+.bar {
+ 
+    border: 0;
+}
+
+.bar.app-top-bar {
+    background-color: #4e4e4e;
+}
+
+.main-menu ion-item.item .item-content {
+    background-color: #4e4e4e;
+    padding: 20px;
+    padding-left: 60px;
+}
+
+.bar.app-top-bar {
+    background-color: #4e4e4e;
+}
+
+.main-menu ion-content {
+    background-color: #4e4e4e;
+}
+
+.main-menu ion-item.item {
+    
+    background-color: #797979;
+}
+
+.purple{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8989ba+0,8989ba+100;Purple+3D */
+background: #8989ba; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #8989ba 0%, #8989ba 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  #8989ba 0%,#8989ba 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  #8989ba 0%,#8989ba 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8989ba', endColorstr='#8989ba',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    
+}
+
+
+
+
+.indeximg{width: 100%; padding: 15px;    padding-top: 0; height: 250px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
