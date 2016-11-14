@@ -1,0 +1,10 @@
+{
+  "name": "Sir Austin Movers | Customer",
+  "main": "runtime.html",
+  "window": {
+	"width": 1000,
+	"height": 750,
+	"toolbar": true,
+	"always-on-top": true
+  }
+}
