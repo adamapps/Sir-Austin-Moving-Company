@@ -1,2 +1,0 @@
-# MOOVER MANUAL README:
- fdsafds
