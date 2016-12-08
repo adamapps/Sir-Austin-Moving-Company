@@ -58,26 +58,47 @@ angular.module('starter.controllers', [])
 
 })
 
-.controller('NewsCtrl',function($scope, $ionicPopup){
-	$scope.infoApp = function() {
-		var alertPopup = $ionicPopup.alert({
-			title: '<b class="assertive">Template</b>',
-			template: '<center>Template ionSunset </center>',
-			buttons: [
-				{
-					text: 'Ok',
-					type: 'button-dark'
-				}
-			]
-		});
-		alertPopup.then(function(res) {
-			console.log('Thank you!!');
-		});
-	};
-})
 
 .controller('MenuActiveCtrl', function($scope, $location) {
     $scope.isActive = function(route) {
         return route === $location.path();
     };
+})
+ 
+
+// Empty View Controllers
+.controller('HomeBaseCtrl',function($scope, $ionicPopup){
+ 
+})
+
+.controller('ActivityFeedCtrl',function($scope, $ionicPopup){
+ 
+})
+
+.controller('AgentAssetsCtrl',function($scope, $ionicPopup){
+ 
+})
+
+.controller('FurnishFarmCtrl',function($scope, $ionicPopup){
+ 
+})
+
+.controller('GarageSaleCtrl',function($scope, $ionicPopup){
+ 
+})
+
+.controller('SirAustinUCtrl',function($scope, $ionicPopup){
+ 
+})
+
+.controller('SecureLineCtrl',function($scope, $ionicPopup){
+ 
+})
+
+.controller('RecruitmentCtrl',function($scope, $ionicPopup){
+
+})
+
+.controller('SirAustinUCtrl',function($scope, $ionicPopup){
+ 
 });
