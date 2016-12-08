@@ -29,8 +29,8 @@ var add_for_admin_bar = 0;
 
 var logo_height = 130; // proya logo height
 var logo_width = 280; // proya logo width
-	logo_height = 200;
-	logo_width = 376;
+	logo_height = 479;
+	logo_width = 406;
 	
 	header_top_height = 0;
 var loading_text;
@@ -150,8 +150,8 @@ function showContactMap() {
 }
 
 var no_ajax_pages = [];
-var qode_root = 'http://192.168.0.2/';
-var theme_root = 'http://192.168.0.2/wp-content/themes/bridge/';
+var qode_root = 'http://siraustinmovers.com/';
+var theme_root = 'http://siraustinmovers.com/wp-content/themes/bridge/';
 var header_style_admin = "";
 if(typeof no_ajax_obj !== 'undefined') {
 	no_ajax_pages = no_ajax_obj.no_ajax_pages;

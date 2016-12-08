@@ -1,14 +1,4 @@
 {
-  "name": "ionWordpress",
-  "app_id": "",
-  "gulpStartupTasks": [
-    "default",
-    "sass",
-    "watch"
-  ],
-  "watchPatterns": [
-    "www/**/*",
-    "!www/lib/**/*"
-  ],
-  "documentRoot": "www"
+  "name": "employee",
+  "app_id": ""
 }

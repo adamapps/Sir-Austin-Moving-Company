@@ -24,7 +24,9 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<link rel="shortcut icon" type="image/x-icon" href="<?php echo esc_url($qode_options_proya['favicon_image']); ?>">
 	<link rel="apple-touch-icon" href="<?php echo esc_url($qode_options_proya['favicon_image']); ?>"/>
+<meta name="google-site-verification" content="KB0Ni3G9iviQKo1CwY_-0SQ0j5Yq08KioVjmBoIJKvQ" />
 	<?php wp_head(); ?>
+
 </head>
 
 <body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
