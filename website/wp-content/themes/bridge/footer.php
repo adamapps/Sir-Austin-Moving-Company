@@ -1,3 +1,4 @@
+
 <?php
 	global $qode_options_proya;
 	$page_id = qode_get_page_id();
